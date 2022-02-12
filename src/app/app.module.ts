@@ -8,6 +8,9 @@ import { Task01Component } from './task01/task01.component';
 import { Task02Component } from './task02/task02.component';
 import { Task03Component } from './task03/task03.component';
 import { TableComponent } from './task03/table/table.component';
+import { Task04Component } from './task04/task04.component';
+import { SearchPipe } from './task04/search.pipe';
+import { SortPipe } from './task04/sort.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { TableComponent } from './task03/table/table.component';
     Task01Component,
     Task02Component,
     Task03Component,
-    TableComponent
+    TableComponent,
+    Task04Component,
+    SearchPipe,
+    SortPipe
   ],
   imports: [
     BrowserModule,
